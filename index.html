@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Lumière Salon — luxury hair, beauty, and wellness in an elegant, welcoming space." />
+  <title>Lumière Salon | Hair & Beauty</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,600;1,400&family=Outfit:wght@300;400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="header" id="header">
+    <nav class="nav container">
+      <a href="#" class="logo">Lumière</a>
+      <button class="nav-toggle" id="navToggle" aria-label="Open menu">
+        <span></span><span></span><span></span>
+      </button>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#services">Services</a></li>
+        <li><a href="#gallery">Gallery</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#team">Team</a></li>
+        <li><a href="#contact">Contact</a></li>
+        <li><a href="#book" class="btn btn-nav">Book Now</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero" id="home">
+      <div class="hero-bg" aria-hidden="true"></div>
+      <div class="hero-overlay" aria-hidden="true"></div>
+      <div class="hero-content container">
+        <p class="hero-tag">Est. 2018 · Downtown</p>
+        <h1>Where beauty<br /><em>feels effortless</em></h1>
+        <p class="hero-desc">Expert cuts, color, and treatments in a calm, luxurious salon designed for you.</p>
+        <div class="hero-actions">
+          <a href="#book" class="btn btn-primary">Book Appointment</a>
+          <a href="#services" class="btn btn-outline">View Services</a>
+        </div>
+      </div>
+      <div class="hero-scroll">
+        <span>Scroll</span>
+        <div class="scroll-line"></div>
+      </div>
+    </section>
+
+    <section class="intro">
+      <div class="container intro-grid">
+        <div class="intro-text reveal">
+          <span class="section-label">Welcome</span>
+          <h2>A sanctuary for self-care</h2>
+          <p>At Lumière, we blend artistry with care. Every visit is tailored — from a fresh trim to a full color transformation — so you leave feeling confident and renewed.</p>
+        </div>
+        <div class="intro-stats reveal">
+          <div class="stat">
+            <span class="stat-num">12+</span>
+            <span class="stat-label">Expert stylists</span>
+          </div>
+          <div class="stat">
+            <span class="stat-num">8k+</span>
+            <span class="stat-label">Happy clients</span>
+          </div>
+          <div class="stat">
+            <span class="stat-num">4.9</span>
+            <span class="stat-label">Average rating</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="services" id="services">
+      <div class="container">
+        <div class="section-header reveal">
+          <span class="section-label">Services</span>
+          <h2>Crafted for you</h2>
+          <p>Transparent pricing. Premium products. No surprises.</p>
+        </div>
+        <div class="services-grid">
+          <article class="service-card reveal">
+            <div class="service-icon">✂</div>
+            <h3>Cut & Style</h3>
+            <p>Precision cuts, blowouts, and styling for every hair type.</p>
+            <span class="service-price">From $45</span>
+          </article>
+          <article class="service-card reveal">
+            <div class="service-icon">◐</div>
+            <h3>Color & Highlights</h3>
+            <p>Balayage, full color, gloss, and corrective color specialists.</p>
+            <span class="service-price">From $95</span>
+          </article>
+          <article class="service-card reveal">
+            <div class="service-icon">◇</div>
+            <h3>Treatments</h3>
+            <p>Keratin, deep conditioning, scalp therapy, and repair masks.</p>
+            <span class="service-price">From $55</span>
+          </article>
+          <article class="service-card reveal">
+            <div class="service-icon">✦</div>
+            <h3>Bridal & Events</h3>
+            <p>Trials, updos, and on-location styling for your special day.</p>
+            <span class="service-price">From $120</span>
+          </article>
+          <article class="service-card reveal">
+            <div class="service-icon">◎</div>
+            <h3>Nails & Beauty</h3>
+            <p>Manicures, brows, lashes, and express beauty services.</p>
+            <span class="service-price">From $35</span>
+          </article>
+          <article class="service-card reveal">
+            <div class="service-icon">☽</div>
+            <h3>Men's Grooming</h3>
+            <p>Cuts, beard trim, hot towel, and classic barber finishes.</p>
+            <span class="service-price">From $40</span>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="gallery" id="gallery">
+      <div class="container">
+        <div class="section-header reveal">
+          <span class="section-label">Gallery</span>
+          <h2>Recent transformations</h2>
+        </div>
+      </div>
+      <div class="gallery-grid">
+        <div class="gallery-item reveal" style="--img: url('https://images.unsplash.com/photo-1560066984-138dadb4c035?w=800&q=80')"></div>
+        <div class="gallery-item reveal" style="--img: url('https://images.unsplash.com/photo-1522337360788-8b13dee7a7e0?w=800&q=80')"></div>
+        <div class="gallery-item reveal large" style="--img: url('https://images.unsplash.com/photo-1633681926022-84c23e8cb04d?w=1200&q=80')"></div>
+        <div class="gallery-item reveal" style="--img: url('https://images.unsplash.com/photo-1595476108010-bb709dc9b0b0?w=800&q=80')"></div>
+        <div class="gallery-item reveal" style="--img: url('https://images.unsplash.com/photo-1519699047748-de8e457a634e?w=800&q=80')"></div>
+        <div class="gallery-item reveal" style="--img: url('https://images.unsplash.com/photo-1521590832167-7bcbfaa6381f?w=800&q=80')"></div>
+      </div>
+    </section>
+
+    <section class="about" id="about">
+      <div class="container about-grid">
+        <div class="about-image reveal">
+          <img src="https://images.unsplash.com/photo-1634449571010-02389ed0f9b0?w=900&q=80" alt="Salon interior with warm lighting" loading="lazy" />
+        </div>
+        <div class="about-content reveal">
+          <span class="section-label">Our Story</span>
+          <h2>Built on trust,<br />styled with heart</h2>
+          <p>Lumière began with a simple idea: everyone deserves a salon that feels like a retreat. Our space is designed with natural light, sustainable products, and a team that listens first.</p>
+          <ul class="about-features">
+            <li>Vegan-friendly & cruelty-free products</li>
+            <li>Complimentary consultation on first visit</li>
+            <li>Flexible evening & weekend hours</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section class="team" id="team">
+      <div class="container">
+        <div class="section-header reveal">
+          <span class="section-label">The Team</span>
+          <h2>Meet your stylists</h2>
+        </div>
+        <div class="team-grid">
+          <article class="team-card reveal">
+            <img src="https://images.unsplash.com/photo-1580618672591-eb180b1a973f?w=400&q=80" alt="Sophia Reed" loading="lazy" />
+            <h3>Sophia Reed</h3>
+            <p>Color Director · 12 yrs</p>
+          </article>
+          <article class="team-card reveal">
+            <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&q=80" alt="Marcus Chen" loading="lazy" />
+            <h3>Marcus Chen</h3>
+            <p>Senior Stylist · 9 yrs</p>
+          </article>
+          <article class="team-card reveal">
+            <img src="https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=400&q=80" alt="Elena Vasquez" loading="lazy" />
+            <h3>Elena Vasquez</h3>
+            <p>Bridal Specialist · 7 yrs</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="testimonial">
+      <div class="container reveal">
+        <blockquote>
+          <p>"The most relaxing salon experience I've ever had. Sophia understood exactly what I wanted — and my hair has never looked better."</p>
+          <footer>— Jamie L., loyal client since 2020</footer>
+        </blockquote>
+      </div>
+    </section>
+
+    <section class="book" id="book">
+      <div class="container book-inner reveal">
+        <div class="book-text">
+          <span class="section-label">Book</span>
+          <h2>Ready for your new look?</h2>
+          <p>Call us or send a message — we'll confirm your slot within a few hours.</p>
+        </div>
+        <form class="book-form" id="bookForm">
+          <div class="form-row">
+            <input type="text" name="name" placeholder="Your name" required />
+            <input type="email" name="email" placeholder="Email" required />
+          </div>
+          <div class="form-row">
+            <input type="tel" name="phone" placeholder="Phone" />
+            <select name="service" required>
+              <option value="">Select service</option>
+              <option>Cut & Style</option>
+              <option>Color & Highlights</option>
+              <option>Treatments</option>
+              <option>Bridal & Events</option>
+              <option>Nails & Beauty</option>
+              <option>Men's Grooming</option>
+            </select>
+          </div>
+          <textarea name="message" placeholder="Preferred date & time, or any notes..." rows="3"></textarea>
+          <button type="submit" class="btn btn-primary btn-full">Request Appointment</button>
+          <p class="form-note" id="formNote"></p>
+        </form>
+      </div>
+    </section>
+
+    <section class="contact" id="contact">
+      <div class="container contact-grid">
+        <div class="contact-block reveal">
+          <h3>Visit Us</h3>
+          <p>124 Rosewood Avenue<br />Suite 200<br />Your City, ST 12345</p>
+        </div>
+        <div class="contact-block reveal">
+          <h3>Hours</h3>
+          <p>Mon – Fri: 9am – 8pm<br />Sat: 9am – 6pm<br />Sun: 10am – 4pm</p>
+        </div>
+        <div class="contact-block reveal">
+          <h3>Contact</h3>
+          <p><a href="tel:+15551234567">(555) 123-4567</a><br /><a href="mailto:hello@lumiere-salon.com">hello@lumiere-salon.com</a></p>
+        </div>
+        <div class="contact-block reveal">
+          <h3>Follow</h3>
+          <div class="social-links">
+            <a href="#" aria-label="Instagram">Instagram</a>
+            <a href="#" aria-label="Facebook">Facebook</a>
+            <a href="#" aria-label="Pinterest">Pinterest</a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer-inner">
+      <a href="#" class="logo">Lumière</a>
+      <p>&copy; 2026 Lumière Salon. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
